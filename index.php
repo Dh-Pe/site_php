@@ -45,7 +45,7 @@ if (isset($_SESSION['nome'])) {
               <a class="nav-link active icone" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link icone" href="contato.php">Contato</a>
+              <a class="nav-link icone" href="comentarios.php">Comentários</a>
             </li>
             <li class="nav-item">
               <a class="nav-link icone" href="sobrenos.php">Sobre</a>
