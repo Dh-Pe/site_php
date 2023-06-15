@@ -6,7 +6,7 @@ $user = "dhpe";
 $pass = "1592485236459@Abc";
 
 $mysqli = mysqli_init();
-mysqli_ssl_set($mysqli, NULL, NULL, "C:\xampp\xampp\htdocs\site_php-main\DigiCertGlobalRootCA.crt.pem", NULL, NULL);
+mysqli_ssl_set($mysqli, NULL, NULL, "C:\wamp64\www\site_php-main\DigiCertGlobalRootCA.crt.pem", NULL, NULL);
 mysqli_real_connect($mysqli, "$host", "$user", "$pass", "$db", 3306, MYSQLI_CLIENT_SSL);
 
 if ($mysqli -> connect_errno) {

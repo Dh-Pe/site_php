@@ -173,7 +173,7 @@ if (isset($_SESSION['nome'])) {
         echo '</h3>';
         echo '<div class="mb-1 text-body-secondary">' . $dataFormatada . '</div>';
         echo '<p class="card-text mb-auto">' . $dados['comentario'] . '</p>';
-        echo '<a href="contato.php" class="icon-link gap-1 icon-link-hover">';
+        echo '<a href="comentarios.php" class="icon-link gap-1 icon-link-hover">';
         echo 'Continue lendo';
         echo '</a>';
         echo '</div>';
