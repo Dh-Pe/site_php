@@ -1,0 +1,27 @@
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #23272b;
+}

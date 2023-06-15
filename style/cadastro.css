@@ -1,0 +1,43 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.formRegister {
+    margin-top: 5%;
+    padding-right: 30%;
+    margin-left: 30%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.denied {
+    color: red;
+    text-align: center;
+    justify-content: center;
+}
+
+.success {
+    text-align: center;
+    justify-content: center;
+    color: lime;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

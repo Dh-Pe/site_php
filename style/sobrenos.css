@@ -1,0 +1,60 @@
+/* Estilos para a página "sobrenos.php" */
+
+/* Título */
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* Parágrafos */
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.conteudo p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.conteudo .conteudo-esquerda {
+  flex: 0 0 50%;
+  margin-right: 20px;
+}
+
+.conteudo .conteudo-direita {
+  flex: 0 0 50%;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .conteudo {
+    display: block;
+    text-align: justify;
+  }
+
+  .conteudo .conteudo-esquerda,
+  .conteudo .conteudo-direita {
+    margin: 0;
+    width: auto;
+  }
+}
+
+.nav-item:hover .nav-link {
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1.2em;
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+

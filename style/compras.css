@@ -1,0 +1,230 @@
+/* Estilos específicos para a página do carrinho */
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #ffffff;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+.botao button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(1, 197, 66);
+    color: white;
+    font-family: "Calibri", sans-serif;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+button.botao:hover {
+    background-color: rgb(0, 167, 56);
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-header-no-close .btn-close {
+    display: none;
+}
+
+/* Segundo Modal - Cartao de credito */
+
+#prosseguir .modal-dialog {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prosseguir .modal-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prosseguir .modal-title {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.h8 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.btn-success {
+    margin-bottom: 1px;
+}
+
+
+.fas.fa-arrow-right {
+    margin-left: 0.5rem;
+}
+
+.fas.fa-arrow-left {
+    margin-left: 0.4rem;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 10px;
+}
+
+.payment-button .payment-button-text {
+    display: none;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.payment-button:hover .payment-button-text {
+    display: inline;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.nav-item:hover .nav-link {
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.2em;
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/* Estilos para o modal ValorTotal */
+#ValorTotal .modal-content {
+    border-radius: 0;
+    width: 100%;
+}
+
+#ValorTotal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+}
+
+#ValorTotal .modal-body {
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+}
+
+#ValorTotal .modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#ValorTotal .modal-footer .btn-secondary {
+    margin-top: -10px;
+}
+
+#ValorTotal .modal-dialog {
+    max-width: 400px;
+}
+
+#ValorTotal .modal-body p {
+    text-align: justify;
+}
+
+.modal-footer .btn-modal {
+    width: 160px;
+}
+
+/* Estilos para os botões nos modais */
+.btn-modal {
+    width: 160px;
+    height: 50px;
+}
+
+.btn-modal.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-modal.btn-danger:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-modal.btn-success {
+    background-color: hsl(134, 62%, 35%);
+    border-color: hsl(134, 62%, 35%);
+}
+
+.btn-modal.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}

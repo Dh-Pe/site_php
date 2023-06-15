@@ -1,0 +1,98 @@
+.title {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: #ffffff;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #ffffff;
+  color: #343a40;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    flex-basis: 100%;
+    margin: 10px;
+  }
+}
+
+.nav-item:hover .nav-link {
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1.2em;
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+.form-control.me-2 {
+  margin-top: 16px;
+}
+
+.addcarrinho {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+
+@media (max-width: 318px) {
+  .add-to-cart-btn i {
+    display: none;
+  }
+}
+
+.add-to-cart-btn .btn-text {
+  display: flex;
+  align-items: center;
+}
+
